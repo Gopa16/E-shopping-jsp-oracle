@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-Shopping Front Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #333;
+      padding: 10px 20px;
+      color: #fff;
+    }
+    .navbar .left {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .navbar .right a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      margin-left: 20px;
+    }
+    .navbar .right a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 80vh;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    .hero p {
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+    .hero a {
+      padding: 12px 25px;
+      background: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .hero a:hover {
+      background: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="left">E-Shopping</div>
+    <div class="right">
+      <a href="login.html">Login</a>
+    </div>
+  </div>
+
+  <div class="hero">
+    <h1>Welcome to E-Shopping</h1>
+    <p>Your one-stop shop for all products. Please login to continue.</p>
+    <a href="login.html">Go to Login</a>
+  </div>
+</body>
+</html>

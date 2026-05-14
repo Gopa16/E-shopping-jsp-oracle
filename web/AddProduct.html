@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Product</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f4; }
+    form { width: 400px; margin: 50px auto; padding: 20px; background: #fff; border-radius: 8px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input[type="text"], input[type="number"] {
+      width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px;
+    }
+    input[type="submit"] {
+      margin-top: 15px; padding: 10px; width: 100%;
+      background: #333; color: #fff; border: none; border-radius: 4px; cursor: pointer;
+    }
+    input[type="submit"]:hover { background: #555; }
+  </style>
+</head>
+<body>
+  <h2 style="text-align:center;">Add Product</h2>
+  <form action="AddProductServlet" method="post">
+    <label for="name">Product Name:</label>
+    <input type="text" name="name" required>
+
+    <label for="category">Category:</label>
+    <input type="text" name="category" required>
+
+    <label for="price">Price:</label>
+    <input type="number" name="price" step="0.01" required>
+
+    <label for="image">Image Path/URL:</label>
+    <input type="text" name="image" required>
+
+    <input type="submit" value="Add Product">
+  </form>
+</body>
+</html>

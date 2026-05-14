@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-SHOP Login</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body, html {
+      height: 100%;
+    }
+
+    /* Background blur effect */
+    body {
+      background: url("images/home.png") no-repeat center center/cover;
+      position: relative;
+    }
+
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: inherit;
+      filter: blur(8px);
+      z-index: -1;
+    }
+
+    /* Login box */
+    .login-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(255, 255, 255, 0.85);
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      width: 320px;
+      text-align: center;
+    }
+
+    .login-container h2 {
+      margin-bottom: 20px;
+      color: #3e2723;
+    }
+
+    .login-container input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #8b4513;
+      border-radius: 8px;
+      outline: none;
+      font-size: 16px;
+    }
+
+    .login-container input:focus {
+      border-color: #5d4037;
+      box-shadow: 0 0 6px rgba(93,64,55,0.4);
+    }
+
+    .login-container button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 15px;
+      border: none;
+      border-radius: 8px;
+      background-color: #d2b48c;
+      color: #3e2723;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .login-container button:hover {
+      background-color: #c19a6b;
+    }
+
+    .login-container a {
+      display: block;
+      margin-top: 15px;
+      text-decoration: none;
+      color: #5d4037;
+      font-size: 14px;
+    }
+
+    .login-container a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login to E-SHOP</h2>
+    <form action="login" method="post">
+      <input type="text" name="phone_number" placeholder="phone_number" >
+      <input type="password" name="password" placeholder="Password" >
+      <button type="submit">Login</button>
+      <a href="forgetpass.jsp">Forgot Password?</a>
+      <a href="signUp.html">Create Account</a>
+    </form>
+  </div>
+</body>
+</html>
