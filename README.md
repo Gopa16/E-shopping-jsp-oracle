@@ -21,3 +21,8 @@ It demonstrates core web application concepts: login, cart management, order pla
 1. Clone the repository:
    ```bash
    git clone https://github.com/<your-username>/e-shopping-jsp-oracle.git
+2. Import into NetBeans/Eclipse/IntelliJ.
+
+3. Configure Oracle DB connection in your servlets (update JDBC URL, username, password).
+
+4. Deploy on Apache Tomcat (http://localhost:8080/e-shopping).
