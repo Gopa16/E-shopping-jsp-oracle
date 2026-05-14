@@ -32,8 +32,8 @@ It demonstrates core web application concepts: login, cart management, order pla
 ### Login Page
 ![Login Page](screenshots/Login.png)
 
-### AdminDasboard
-![AdminDashboard Page](screenshots/AdminDashboard.png)
+### AdminDashboard
+![AdminDashboard Page](screenshots/adminDashboard.png)
 
 ### Order Success
 ![Order Success](screenshots/ordersuccessfull.png)
