@@ -26,3 +26,20 @@ It demonstrates core web application concepts: login, cart management, order pla
 3. Configure Oracle DB connection in your servlets (update JDBC URL, username, password).
 
 4. Deploy on Apache Tomcat (http://localhost:8080/e-shopping).
+
+## 📸 Screenshots
+
+### Login Page
+![Login Page](screenshots/Login.png)
+
+### AdminDasboard
+![Cart Page](screenshots/AdminDashboard.png)
+
+### Order Success
+![Order Success](screenshots/ordersuccessfull.png)
+
+### Admin Orders
+![Admin Orders](screenshots/adminorders.png)
+
+### My Orders
+![My Orders](screenshots/userOrders.png)
